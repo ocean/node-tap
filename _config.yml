@@ -1,5 +1,6 @@
 title: "Node Tap"
 description: A Test-Anything-Protocol library for Node.js
+baseurl: /node-tap
 links:
   - name: "Index"
     url: "/"

@@ -80,12 +80,12 @@ section.main {
   }
 }
 </style>
-<link rel="stylesheet" src="/static/github.css" />
+<link rel='stylesheet' src='{{ site.baseurl }}/static/github.css' />
 
 <body>
 
 <section class='side'>
-  <h2><a href=/><img src='/static/tapjs.png' width=100 height=100 alt='Test Anything JS'></a></h2>
+    <h2><a href='{{ site.baseurl }}'><img src='{{ site.baseurl }}/static/tapjs.png' width=100 height=100 alt='Test Anything JS'></a></h2>
   <p>{{ site.description }}</p>
   <ul>
   {% for link in site.links %}
@@ -95,7 +95,7 @@ section.main {
   {% endfor %}
   </ul>
   <pre><a href="http://npm.im/tap">npm install tap</a>
-<a href="/cli/">tap test/*.js</a></pre>
+<a href="{{ site.baseurl }}/cli/">tap test/*.js</a></pre>
 </section>
 <section class='main'>
 {{ content }}
